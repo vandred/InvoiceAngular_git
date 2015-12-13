@@ -1,0 +1,98 @@
+﻿<div>
+    <hr />
+
+    <div ng-controller="invoiceCtrl as vm">
+        <div class="row">
+            <div class="col-md-2">
+                <div>
+                    <button class="btn btn-primary" type="file"
+                            ngf-max-size="4MB"
+                            accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+                            ngf-select="uploadFiles($file, $invalidFiles,vm)">
+                        <span class="glyphicon glyphicon-floppy-save"></span>
+                        Upload Excel File
+                    </button>
+                    <br><br>
+                    File:
+                    <div style="font:smaller">
+                        {{f.name}} {{errFile.name}} {{errFile.$error}} {{errFile.$errorParam}}
+                        <span class="progress" ng-show="f.progress >= 0">
+                            <div style="width:{{f.progress}}%"
+                                 ng-bind="f.progress + '%'"></div>
+                        </span>
+                    </div>
+                    {{errorMsg}}
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success" ng-click="reloadtabel(vm)"><span class="glyphicon glyphicon-refresh"></span> Reload Table </button>
+
+            </div>
+            <div class="col-md-2">
+                <div class="col-md-2">
+                    <button class="btn btn-info" ng-click="downloadFile()"><span class="glyphicon glyphicon-export"></span> Export CSV </button>
+
+                </div>
+            </div>
+        </div>
+        <hr />
+       
+        <h1>Invoice</h1>
+        <p>
+            <input class="form-control" placeholder="Search by name" type="text" ng-model="vm.search" ng-model-options="{ debounce: 500 }" />
+        </p>
+        <table ng-table="vm.tableParams" class="table">
+
+
+            <tr ng-repeat="invoice in $data">
+                <td>
+                    <button class="btn btn-danger btn-sm" ng-click="deleteinvoice(invoice,vm)"><span class="glyphicon glyphicon-trash"></span>Delete row</button>
+                </td>
+                <td data-title="'PDF upload'">
+                    @*  *@
+                    <div>
+                        <button class="btn btn-default btn-sm" type="file"
+                                accept="application/pdf"
+                                ngf-max-size="4MB"
+                                ngf-select="uploadPDF($file, $invalidFiles,vm,invoice)">
+                            <span class="glyphicon glyphicon-open"></span>
+                        </button>
+                        <br><br>
+                        File:
+                        <div style="font:smaller">
+                            {{f.name}} {{errFile.name}} {{errFile.$error}} {{errFile.$errorParam}}
+                            <span class="progress" ng-show="f.progress >= 0">
+                                <div style="width:{{f.progress}}%"
+                                     ng-bind="f.progress + '%'"></div>
+                            </span>
+                        </div>
+                        {{errorMsg}}
+                    </div>
+
+                </td>
+                <td data-title="'PDF link'"><a ng-href="{{invoice.invoiceFileFullPath}}">{{invoice.invoiceFileFullPath}}</a></td>
+                <td data-title="'vendorName'" data-sortable="'vendorName'">{{invoice.vendorName}}</td>
+                <td data-title="'invoiceNumber'" data-sortable="'invoiceNumber'">{{invoice.invoiceNumber}}</td>
+                <td data-title="'invoiceDate'" data-sortable="'invoiceDate'">{{invoice.invoiceDate}}</td>
+                <td data-title="'customerDunsID'" data-sortable="'customerDunsID'">{{invoice.customerDunsID}}</td>
+                <td data-title="'customerName'" data-sortable="'customerName'">{{invoice.customerName}}</td>
+                <td data-title="'vendorDUNSID'" data-sortable="'vendorDUNSID'">{{invoice.vendorDUNSID}}</td>
+                <td data-title="'vendorName'" data-sortable="'vendorName'">{{invoice.vendorName}}</td>
+                <td data-title="'totalAmount'" data-sortable="'totalAmount'">{{invoice.totalAmount}}</td>
+                <td data-title="'invoceNumberScore'" data-sortable="'invoceNumberScore'">{{invoice.invoceNumberScore}}</td>
+                <td data-title="'invoiceDateScore'" data-sortable="'invoiceDateScore'">{{invoice.invoiceDateScore}}</td>
+                <td data-title="'customerDunsIDScore'" data-sortable="'customerDunsIDScore'">{{invoice.customerDunsIDScore}}</td>
+                <td data-title="'customerNameScore'" data-sortable="'customerNameScore'">{{invoice.customerNameScore}}</td>
+                <td data-title="'vendoreDunsIDScore'" data-sortable="'vendoreDunsIDScore'">{{invoice.vendoreDunsIDScore}}</td>
+                <td data-title="'vendorNameScore'" data-sortable="'vendorNameScore'">{{invoice.vendorNameScore}}</td>
+                <td data-title="'totalAmountScore'" data-sortable="'totalAmountScore'">{{invoice.totalAmountScore}}</td>
+                <td data-title="'weightedAverageScore'" data-sortable="'weightedAverageScore'">{{invoice.weightedAverageScore}}</td>
+                <td data-title="'accuracyRate'" data-sortable="'accuracyRate'">{{invoice.accuracyRate}}</td>
+                <td data-title="'scoreWeight'" data-sortable="'scoreWeight'">{{invoice.scoreWeight}}</td>
+
+            </tr>
+        </table>
+    </div>
+</div>
+
+<hr />

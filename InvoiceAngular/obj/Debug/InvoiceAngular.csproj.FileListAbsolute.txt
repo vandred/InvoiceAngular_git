@@ -1,0 +1,56 @@
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\ng.Net Template1.dll.config
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\ng.Net Template1.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\ng.Net Template1.pdb
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Antlr3.Runtime.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\EntityFramework.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\EntityFramework.SqlServer.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Newtonsoft.Json.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Owin.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Net.Http.Formatting.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Helpers.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.Owin.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.WebHost.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Mvc.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Optimization.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Razor.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.Razor.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\WebGrease.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Antlr3.Runtime.pdb
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\EntityFramework.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\EntityFramework.SqlServer.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\Newtonsoft.Json.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Net.Http.Formatting.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Helpers.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.Owin.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Http.WebHost.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Mvc.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Razor.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.WebPages.Razor.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Web.Optimization.xml
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\obj\Debug\ng.Net Template1.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\obj\Debug\ng.Net Template1.pdb
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\bin\System.Linq.Dynamic.dll
+C:\Users\VanDred\Documents\Visual Studio 2013\Projects\InvoiceAngular\InvoiceAngular\obj\Debug\InvoiceAngular.csprojResolveAssemblyReference.cache
